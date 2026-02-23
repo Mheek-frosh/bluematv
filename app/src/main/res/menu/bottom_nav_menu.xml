@@ -5,7 +5,19 @@
         android:icon="@android:drawable/ic_menu_compass"
         android:title="Home" />
     <item
-        android:id="@+id/nav_downloads"
-        android:icon="@android:drawable/stat_sys_download_done"
-        android:title="Downloads" />
+        android:id="@+id/nav_activities"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="Activities" />
+    <item
+        android:id="@+id/nav_upload"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Upload" />
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="History" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Profile" />
 </menu>

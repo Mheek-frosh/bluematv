@@ -7,5 +7,7 @@ data class DownloadItem(
     var status: String = "queued",   // queued, downloading, completed, error
     var progress: Int = 0,
     var filePath: String? = null,
-    var error: String? = null
+    var error: String? = null,
+    var platform: String = "video",
+    var duration: String = "0:00"
 )

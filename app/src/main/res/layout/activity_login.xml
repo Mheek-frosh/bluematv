@@ -13,20 +13,21 @@
         android:orientation="vertical"
         android:padding="32dp">
 
-        <!-- App Icon / Logo Area -->
+        <!-- App Icon / Logo Area - 5th image -->
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="48dp"
             android:layout_marginBottom="8dp"
-            android:src="@mipmap/ic_launcher_round"
-            android:contentDescription="App logo" />
+            android:contentDescription="BlueMatrix logo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bluematrix_logo" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Blue Matv"
+            android:text="BlueMatrix"
             android:textColor="@color/text_primary"
             android:textSize="28sp"
             android:textStyle="bold" />
